@@ -23,4 +23,11 @@ app.use(express.static("public"))// If want to store files,folders,images stored
 
 app.use(cookieParser())//If want to apply CRUD ops on user's browser
 
+//routes import
+import userRouter from "./routes/user.routes.js"
+
+//Routes declaration
+app.use("/api/v1/users",userRouter)
+
+
 export {app} 
