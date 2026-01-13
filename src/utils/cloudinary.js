@@ -2,11 +2,11 @@ import {v2 as cloudinary} from "cloudinary"
 import fs from "fs"
 import path from "path"
 
-console.log("CLOUDINARY ENV CHECK:", {
-  name: process.env.CLOUDINARY_CLOUD_NAME,
-  key: process.env.CLOUDINARY_API_KEY ? "SET" : "MISSING",
-  secret: process.env.CLOUDINARY_API_SECRET ? "SET" : "MISSING",
-});
+// console.log("CLOUDINARY ENV CHECK:", {
+//   name: process.env.CLOUDINARY_CLOUD_NAME,
+//   key: process.env.CLOUDINARY_API_KEY ? "SET" : "MISSING",
+//   secret: process.env.CLOUDINARY_API_SECRET ? "SET" : "MISSING",
+// });
 
 
 // cloudinary.config({
